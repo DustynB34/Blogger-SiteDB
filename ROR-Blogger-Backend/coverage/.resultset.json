@@ -1,0 +1,401 @@
+{
+  "Minitest": {
+    "coverage": {
+      "C:/Users/Kevin/Documents/source/repos/Ruby On Rails/ROR-React-Blogger_Site/ROR-Blogger-Backend/config/environment.rb": {
+        "lines": [
+          null,
+          1,
+          null,
+          null,
+          1
+        ]
+      },
+      "C:/Users/Kevin/Documents/source/repos/Ruby On Rails/ROR-React-Blogger_Site/ROR-Blogger-Backend/config/application.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "C:/Users/Kevin/Documents/source/repos/Ruby On Rails/ROR-React-Blogger_Site/ROR-Blogger-Backend/config/environments/test.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Users/Kevin/Documents/source/repos/Ruby On Rails/ROR-React-Blogger_Site/ROR-Blogger-Backend/config/initializers/cors.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Users/Kevin/Documents/source/repos/Ruby On Rails/ROR-React-Blogger_Site/ROR-Blogger-Backend/config/initializers/filter_parameter_logging.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "C:/Users/Kevin/Documents/source/repos/Ruby On Rails/ROR-React-Blogger_Site/ROR-Blogger-Backend/config/initializers/inflections.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Users/Kevin/Documents/source/repos/Ruby On Rails/ROR-React-Blogger_Site/ROR-Blogger-Backend/config/routes.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Users/Kevin/Documents/source/repos/Ruby On Rails/ROR-React-Blogger_Site/ROR-Blogger-Backend/test/controllers/blog_controller_test.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null
+        ]
+      },
+      "C:/Users/Kevin/Documents/source/repos/Ruby On Rails/ROR-React-Blogger_Site/ROR-Blogger-Backend/test/controllers/comment_controller_test.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null
+        ]
+      },
+      "C:/Users/Kevin/Documents/source/repos/Ruby On Rails/ROR-React-Blogger_Site/ROR-Blogger-Backend/test/controllers/public_controller_test.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null
+        ]
+      },
+      "C:/Users/Kevin/Documents/source/repos/Ruby On Rails/ROR-React-Blogger_Site/ROR-Blogger-Backend/test/controllers/topic_controller_test.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null
+        ]
+      },
+      "C:/Users/Kevin/Documents/source/repos/Ruby On Rails/ROR-React-Blogger_Site/ROR-Blogger-Backend/test/controllers/user_controller_test.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Users/Kevin/Documents/source/repos/Ruby On Rails/ROR-React-Blogger_Site/ROR-Blogger-Backend/test/models/blog_test.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Users/Kevin/Documents/source/repos/Ruby On Rails/ROR-React-Blogger_Site/ROR-Blogger-Backend/test/models/comment_test.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Users/Kevin/Documents/source/repos/Ruby On Rails/ROR-React-Blogger_Site/ROR-Blogger-Backend/test/models/topic_test.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Users/Kevin/Documents/source/repos/Ruby On Rails/ROR-React-Blogger_Site/ROR-Blogger-Backend/test/models/user_test.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Users/Kevin/Documents/source/repos/Ruby On Rails/ROR-React-Blogger_Site/ROR-Blogger-Backend/app/models/blog.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "C:/Users/Kevin/Documents/source/repos/Ruby On Rails/ROR-React-Blogger_Site/ROR-Blogger-Backend/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "C:/Users/Kevin/Documents/source/repos/Ruby On Rails/ROR-React-Blogger_Site/ROR-Blogger-Backend/app/models/comment.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null
+        ]
+      },
+      "C:/Users/Kevin/Documents/source/repos/Ruby On Rails/ROR-React-Blogger_Site/ROR-Blogger-Backend/app/models/topic.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null
+        ]
+      },
+      "C:/Users/Kevin/Documents/source/repos/Ruby On Rails/ROR-React-Blogger_Site/ROR-Blogger-Backend/app/models/user.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "C:/Users/Kevin/Documents/source/repos/Ruby On Rails/ROR-React-Blogger_Site/ROR-Blogger-Backend/app/controllers/user_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          2,
+          2,
+          2,
+          2,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "C:/Users/Kevin/Documents/source/repos/Ruby On Rails/ROR-React-Blogger_Site/ROR-Blogger-Backend/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      }
+    },
+    "timestamp": 1684864774
+  }
+}
