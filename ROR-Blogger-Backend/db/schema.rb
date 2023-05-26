@@ -14,23 +14,28 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_11_171210) do
   create_table "blogs", force: :cascade do |t|
     t.string "title"
     t.string "content"
-    t.string "views"
-    t.string "likes"
-    t.string "dislikes"
-    t.string "age_rating"
-    t.string "user_id"
-    t.string "topic_id"
+    t.bigint "views"
+    t.bigint "likes"
+    t.bigint "dislikes"
+    t.integer "age_rating"
+    t.integer "user_id", null: false
+    t.integer "topic_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["topic_id"], name: "index_blogs_on_topic_id"
+    t.index ["user_id"], name: "index_blogs_on_user_id"
   end
 
   create_table "comments", force: :cascade do |t|
     t.string "content"
-    t.string "likes"
-    t.string "dislikes"
-    t.string "user_id"
+    t.bigint "likes"
+    t.bigint "dislikes"
+    t.integer "user_id"
+    t.integer "blog_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["blog_id"], name: "index_comments_on_blog_id"
+    t.index ["user_id"], name: "index_comments_on_user_id"
   end
 
   create_table "topics", force: :cascade do |t|
@@ -45,10 +50,14 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_11_171210) do
     t.string "password_digest"
     t.string "first_name"
     t.string "last_name"
-    t.string "dob"
+    t.date "dob"
     t.string "role"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "blogs", "topics"
+  add_foreign_key "blogs", "users"
+  add_foreign_key "comments", "blogs"
+  add_foreign_key "comments", "users"
 end

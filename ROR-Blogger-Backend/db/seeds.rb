@@ -5,3 +5,16 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+User.create!(username: 'dustynb344', first_name: "dustyn", last_name: "bachetti", email: "dustyn821@revature.net", password: 'password1', dob: 1, role: 'publisher')
+
+topics = [
+  "Artificial Intelligence",
+  "Data Science"
+]
+
+topics.each do |topic|
+  Topic.create!(
+    name: topic
+  )
+end

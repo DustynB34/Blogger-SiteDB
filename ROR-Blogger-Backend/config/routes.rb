@@ -23,11 +23,11 @@ Rails.application.routes.draw do
 
   resources :user do
     resources :blog do
-      put '/views', to: "blog#update_views"
+      put '/views', to: 'blog#update_views'
     end
   end
 
-  get '/blog', to: 'blog#indexall'
+  get '/blog', to: 'public#blog_index'
   post '/login', to: 'session#create'
 
   # Defines the root path route ("/")

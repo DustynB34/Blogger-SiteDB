@@ -1,21 +1,21 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  title: MyString
-  content: MyString
-  views: MyString
-  likes: MyString
-  dislikes: MyString
-  age_rating: MyString
-  user_id: MyString
-  topic_id: MyString
+blog1:
+  title: test1
+  content: test content
+  views: 3
+  likes: 4
+  dislikes: 5
+  age_rating: 0
+  user: :johnd
+  topic: :topic1
 
-two:
-  title: MyString
-  content: MyString
-  views: MyString
-  likes: MyString
-  dislikes: MyString
-  age_rating: MyString
-  user_id: MyString
-  topic_id: MyString
+blog2:
+  title: test2
+  content: test content
+  views: 3
+  likes: 4
+  dislikes: 5
+  age_rating: 0
+  user: :janed
+  topic: :topic1

@@ -3,12 +3,12 @@ class CreateBlogs < ActiveRecord::Migration[7.0]
     create_table :blogs do |t|
       t.string :title
       t.string :content
-      t.string :views
-      t.string :likes
-      t.string :dislikes
-      t.string :age_rating
-      t.string :user_id
-      t.string :topic_id
+      t.bigint :views
+      t.bigint :likes
+      t.bigint :dislikes
+      t.integer :age_rating
+      t.references :user, null: false, foreign_key: true
+      t.references :topic, null: false, foreign_key: true
 
       t.timestamps
     end
